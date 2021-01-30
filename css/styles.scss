@@ -1,4 +1,8 @@
 
+// $ - define a variable
+// @mixin - define a mixin
+// @include - use a mixin
+
 $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
@@ -73,4 +77,17 @@ body{
   position: absolute;
   bottom: 0px;
   z-index: 1;
+}
+
+
+.modal-header {
+  background-color: $background-dark;
+  color: floralwhite;
+  .close {
+    color: floralwhite;
+  }
+}
+
+.modal-body {
+  background-color: $background-pale;
 }
